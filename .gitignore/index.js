@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 
-client.login('Njc5OTc4MTA3MzM1NDc1Mjgz.Xk5Nhg.o-mO3aC9DpX0Z0YDOEBzCLic-Po')
+client.login(process.env.TOKEN)
 
 client.on('ready', function () {
     client.user.setGame('Ajout de compte')
